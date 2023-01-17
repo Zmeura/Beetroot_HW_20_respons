@@ -28,6 +28,10 @@ body {
 
 .arrow {
   margin-left: 6px;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .header,
@@ -358,6 +362,10 @@ body {
   align-items: center;
   margin: 90px 0 50px;
 
+  &:hover {
+    cursor: pointer;
+  }
+
   @media screen and (max-width: 768px) {
     margin: 80px 0 40px;
   }
@@ -514,6 +522,7 @@ button {
 
   &:hover {
     background: rgb(146, 145, 145);
+    cursor: pointer;
   }
 }
 
@@ -534,6 +543,10 @@ button {
     letter-spacing: 0.1em;
     color: $color_main;
     max-width: 470px;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   @media screen and (max-width: 768px) {
